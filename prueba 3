@@ -1,0 +1,38 @@
+while True:
+    print("1.-agregar jugador")
+    print("2.- listar de jugadores")
+    print("3.- imprimir datos de los jugador")
+    print("4.- eliminar jugador")
+    print("5.-Estadisticas")
+    print("6.-generar archivo csv")
+    print("7.cargar archivo csv")
+
+    op=int(input(" ingrese un numero :"))
+
+    if op==1:
+        ("")
+        (".-.-.-MENU DE JUGADORES-.-.-.-")
+        ("")
+        numerocamiseta=int("ingrese numero de camiseta :")
+        nombrejugador=input("ingrese el nombre del jugador : ")
+        diccionario={"numerocamiseta":numerocamiseta,"nombrejugador":nombrejugador,}
+        
+        lista.append(diccionario)
+    
+    elif op==2:
+        print("")
+        print(".-.- V E H Í C U L O S .-.-.-")
+        print("")
+        for jugadores  in lista:
+            print("Patente : ",autitos["patente"], " Marca : ",autitos["marca"], " Modelo : ",autitos["modelo"]) 
+            #print("Patente : ",autitos[0], " Marca : ",autitos[1], " Modelo : ",autitos[2])
+            print("-----")
+    elif op==3:
+    elif op==4:
+    elif op==5:
+    elif op==6:
+    elif op==7:
+    elif op==0:
+        print(" hasta luegoooo")
+    else:
+        print("numero invalido, ingrese denuevo")
